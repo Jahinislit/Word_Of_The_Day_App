@@ -1,50 +1,90 @@
-# Welcome to your Expo app 👋
+# 📘 Word of the Day App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern React Native mobile app built with Expo Router that displays a "Word of the Day" using a real dictionary API. Users can view definitions, example sentences, and browse word history — all persisted locally.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
+- 🎯 Displays a **random word** with a definition and example sentence
+- 📜 **History screen** with previously viewed words and dates
+- 🗃️ Uses **AsyncStorage** to persist data between sessions
+- 🔄 Tap "New Word" to fetch another random word
+- 🧼 Clear the entire history with one button
+- 🎨 Clean, modern, mobile-friendly UI
+
+---
+
+## Hosted using Expo EAS.
+  📱 **Run in Web**:  
+ Open this URL to acees the app:
+
+ https://wordofthedayapp--jahin.expo.app/
+
+---
+
+## 🚀 Installation & Running
+
+### 📦 Prerequisites
+
+- Node.js ≥ 16.x
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- Android Studio or Xcode (for simulators)
+- Git (optional)
+
+---
+
+### 🛠️ Steps
+
+1. **Clone the project**
+   ```bash
+   git clone https://github.com/your-username/word-of-the-day-app.git
+   cd word-of-the-day-app
+   ```
+
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Start the development server**
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. **Run on device or emulator**
+   - Press `i` to open in iOS simulator
+   - Press `a` for Android emulator
+   - Or scan the QR code with Expo Go on your phone
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🌐 API Used
 
-## Get a fresh project
+We fetch truly random words and definitions using:
 
-When you're ready, run:
+1. **[Random Word API](https://random-word-api.herokuapp.com/)**
+   - Example: `https://random-word-api.herokuapp.com/word`
 
-```bash
-npm run reset-project
-```
+2. **[Free Dictionary API](https://dictionaryapi.dev/)**
+   - Example: `https://api.dictionaryapi.dev/api/v2/entries/en/<word>`
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+⚠️ No API key needed.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🛠️ Tech Stack
 
-## Join the community
+- React Native + Expo
+- TypeScript
+- Expo Router
+- React Navigation
+- AsyncStorage (via `@react-native-async-storage/async-storage`)
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## 📄 License
+
+MIT © [Your Name]
