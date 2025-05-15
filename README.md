@@ -17,7 +17,7 @@ A modern React Native mobile app built with Expo Router that displays a "Word of
 
 ## Hosted using Expo EAS.
   📱 **Run in Web**:  
- Open this URL to acees the app:
+ Open this URL to access the app:
 
  https://wordofthedayapp--jahin.expo.app/
 
