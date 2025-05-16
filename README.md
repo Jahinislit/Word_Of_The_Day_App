@@ -87,4 +87,4 @@ We fetch truly random words and definitions using:
 
 ## 📄 License
 
-MIT © [Your Name]
+MIT © Jahinislit
